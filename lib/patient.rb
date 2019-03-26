@@ -18,6 +18,7 @@ def new_appointnment(doctor, date)
    appt = Appointment.new(self, doctor, date)
    @appointments << appt
    @doctors << doctor
+   Appointment.all << appt	
    appt
 end
 
