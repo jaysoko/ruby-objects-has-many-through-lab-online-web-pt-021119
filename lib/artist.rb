@@ -21,8 +21,4 @@ def new_song(name, genre)
  new_song
  end
 
-def songs
-@songs
-end
-
 end
