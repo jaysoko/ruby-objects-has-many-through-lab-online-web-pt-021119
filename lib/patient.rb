@@ -13,11 +13,11 @@ def self.all
 @@all
 end
 
-def self.new_appointnment(doctor, date)
+def new_appointment(doctor, date)
    appt = Appointment.new(date, self, doctor)
    @appointments << appt
    @doctors << doctor
-   Appointment.all << appt	
+   Appointment.all << appt
    appt
 end
 
