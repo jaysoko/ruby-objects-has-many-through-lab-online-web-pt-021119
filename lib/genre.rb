@@ -6,6 +6,7 @@ def initialize(name)
 @name = name
 @@all << self
 @songs = []
+@artist = []
 end
 
 def self.all
