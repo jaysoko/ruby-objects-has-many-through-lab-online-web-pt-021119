@@ -6,10 +6,17 @@ attr_accessor :name, :appointments, :doctors
 def initialize(name)
 @name = name
 @@all << self
+@appointments = []
+@doctors = []
 end
 
 def self.all
 @@all
 end
 
+def new_appointnment(doctor, date)
+   appt = Appointment.new(self, doctor, date)
+   @appointments << appt
+   @doctors << doctor
+   appt
 end
