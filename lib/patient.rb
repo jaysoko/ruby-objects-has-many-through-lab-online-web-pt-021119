@@ -8,6 +8,7 @@ def initialize(name)
 @@all << self
 @appointments = []
 @doctors = []
+@appointments.appointments = self
 end
 
 def self.all
