@@ -20,3 +20,5 @@ def new_appointnment(doctor, date)
    @doctors << doctor
    appt
 end
+
+end
