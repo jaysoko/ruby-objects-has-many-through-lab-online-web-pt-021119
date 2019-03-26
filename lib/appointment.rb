@@ -8,8 +8,6 @@ def initialize(date,patient,doctor)
 @patient = patient
 @doctor = doctor
 @@all << self
-@patients = []
-@doctors = []
 end
 
 def self.all
