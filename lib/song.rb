@@ -7,6 +7,7 @@ def initialize(name,artist,genre)
 @genre = genre
 @artist = artist
 @@all << self
+@genre.songs << self
 end
 
 def self.all
